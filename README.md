@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-<img src="https://github.com/xinzhen2015/Android_Check/upload" alt="Android_Check" title="Android_Check"/>
+<img src="https://github.com/xinzhen2015/Android_Check/blob/master/Android_package_check/WechatIMG31.png" alt="Android_Check" title="Android_Check"/>
 </p>
 
 
