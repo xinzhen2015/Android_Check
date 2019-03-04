@@ -119,3 +119,6 @@ with open(json_path, 'r') \
 ```
 
 ### 5、执行 a_produce_html.py 生成漂亮报告
+
+
+[进阶学习](https://github.com/Tencent/matrix/wiki/Matrix-ApkChecker#matrix-apkchecker-的使用)
