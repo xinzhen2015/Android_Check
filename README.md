@@ -96,10 +96,15 @@ jar 包：https://jcenter.bintray.com/com/tencent/matrix/matrix-apk-canary/0.4.1
     ]
 }
 ```
-
+```
+注意：--output 参数，路径的最后是文件名，不写文件名将生成 .json、 .html 文件
+```
 ### 3、在终端执行 
 
 ```
 java -jar jar_path --config congfig_path
 ```
 
+```
+生成，result.json 文件。
+```
