@@ -108,3 +108,6 @@ java -jar jar_path --config congfig_path
 ```
 生成，result.json 文件。
 ```
+### 4、修改 a_package_check.py 中的 json_path
+
+### 5、执行 a_produce_html.py 生成漂亮报告
