@@ -110,4 +110,12 @@ java -jar jar_path --config congfig_path
 ```
 ### 4、修改 a_package_check.py 中的 json_path
 
+```python
+json_path = "json_path"
+with open(json_path, 'r') \
+        as load_f:
+
+    load_dict = json.load(load_f)
+```
+
 ### 5、执行 a_produce_html.py 生成漂亮报告
