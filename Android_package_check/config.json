@@ -1,0 +1,67 @@
+{
+    "--apk":"/Users/william/PycharmProjects/System/Mobile/Android/Android_Package_Check/huxiu_568_2.apk",
+    "--output":"/Users/william/PycharmProjects/System/Mobile/Android/Android_Package_Check/result/result",
+    "--format":"mm.html,mm.json",
+
+    "--formatConfig":[
+        {
+            "name":"-countMethod",
+            "group":[
+                {
+                    "name":"Android System",
+                    "package":"android"
+                },
+                {
+                    "name":"java system",
+                    "package":"java"
+                },
+                {
+                    "name":"com.test",
+                    "package":"com.test"
+                }
+            ]
+        }
+    ],
+
+    "options":[
+        {
+            "name":"-manifest"
+        },
+        {
+            "--suffix":"png, jpg, jpeg, gif, arsc",
+            "--min":"10",
+            "name":"-fileSize",
+            "--order":"desc"
+        },
+        {
+            "--group":"package",
+            "name":"-countMethod"
+        },
+        {
+            "name":"-checkResProguard"
+        },
+        {
+            "--min":"10",
+            "name":"-findNonAlphaPng"
+        },
+        {
+            "name":"-checkMultiLibrary"
+        },
+        {
+            "--suffix":"png, jpg, jpeg, gif, arsc",
+            "name":"-uncompressedFile"
+        },
+        {
+            "name":"-countR"
+        },
+        {
+            "name":"-duplicatedFile"
+        },
+        {
+            "name":"-unusedAssets",
+            "--ignoreAssets":[
+                "*.so"
+            ]
+        }
+    ]
+}
