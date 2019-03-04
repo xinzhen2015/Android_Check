@@ -23,7 +23,7 @@ Analyse the APK package, give suggestions of reducing the APK's size; Compare tw
 
 ### 1、下载
 
-jar 包：https://jcenter.bintray.com/com/tencent/matrix/matrix-apk-canary/0.4.10/matrix-apk-canary-0.4.10.jar  
+[Jar 包](https://jcenter.bintray.com/com/tencent/matrix/matrix-apk-canary/0.4.10/matrix-apk-canary-0.4.10.jar)
 
 ### 2、配置config
 
@@ -119,6 +119,9 @@ with open(json_path, 'r') \
 ```
 
 ### 5、执行 a_produce_html.py 生成漂亮报告
+
+
+
 
 
 [进阶学习](https://github.com/Tencent/matrix/wiki/Matrix-ApkChecker#matrix-apkchecker-的使用)
