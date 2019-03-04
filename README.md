@@ -21,5 +21,7 @@ Analyse the APK package, give suggestions of reducing the APK's size; Compare tw
 # 用法
 
 ```
-1、下载 jar 包：https://jcenter.bintray.com/com/tencent/matrix/matrix-apk-canary/0.4.10/matrix-apk-canary-0.4.10.jar
+1、下载：jar 包：https://jcenter.bintray.com/com/tencent/matrix/matrix-apk-canary/0.4.10/matrix-apk-canary-0.4.10.jar  
+
+2、执行：java -jar jar_path --config congfig_path
 ```
