@@ -20,8 +20,86 @@ Analyse the APK package, give suggestions of reducing the APK's size; Compare tw
 
 # 用法
 
-```
-1、下载：jar 包：https://jcenter.bintray.com/com/tencent/matrix/matrix-apk-canary/0.4.10/matrix-apk-canary-0.4.10.jar  
 
-2、执行：java -jar jar_path --config congfig_path
+### 1、下载
+
+jar 包：https://jcenter.bintray.com/com/tencent/matrix/matrix-apk-canary/0.4.10/matrix-apk-canary-0.4.10.jar  
+
+### 2、配置config
+
+```json
+{
+    "--apk":"/Users/william/PycharmProjects/System/Mobile/Android/Android_Package_Check/huxiu_568_2.apk",
+    "--output":"/Users/william/PycharmProjects/System/Mobile/Android/Android_Package_Check/result/result",
+    "--format":"mm.html,mm.json",
+
+    "--formatConfig":[
+        {
+            "name":"-countMethod",
+            "group":[
+                {
+                    "name":"Android System",
+                    "package":"android"
+                },
+                {
+                    "name":"java system",
+                    "package":"java"
+                },
+                {
+                    "name":"com.huxiu",
+                    "package":"com.huxiu"
+                }
+            ]
+        }
+    ],
+
+    "options":[
+        {
+            "name":"-manifest"
+        },
+        {
+            "--suffix":"png, jpg, jpeg, gif, arsc",
+            "--min":"10",
+            "name":"-fileSize",
+            "--order":"desc"
+        },
+        {
+            "--group":"package",
+            "name":"-countMethod"
+        },
+        {
+            "name":"-checkResProguard"
+        },
+        {
+            "--min":"10",
+            "name":"-findNonAlphaPng"
+        },
+        {
+            "name":"-checkMultiLibrary"
+        },
+        {
+            "--suffix":"png, jpg, jpeg, gif, arsc",
+            "name":"-uncompressedFile"
+        },
+        {
+            "name":"-countR"
+        },
+        {
+            "name":"-duplicatedFile"
+        },
+        {
+            "name":"-unusedAssets",
+            "--ignoreAssets":[
+                "*.so"
+            ]
+        }
+    ]
+}
 ```
+
+### 3、在终端执行 
+
+```
+java -jar jar_path --config congfig_path
+```
+
