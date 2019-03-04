@@ -29,8 +29,8 @@ jar 包：https://jcenter.bintray.com/com/tencent/matrix/matrix-apk-canary/0.4.1
 
 ```json
 {
-    "--apk":"/Users/william/PycharmProjects/System/Mobile/Android/Android_Package_Check/huxiu_568_2.apk",
-    "--output":"/Users/william/PycharmProjects/System/Mobile/Android/Android_Package_Check/result/result",
+    "--apk":"apk_path",
+    "--output":"result_path/result",
     "--format":"mm.html,mm.json",
 
     "--formatConfig":[
@@ -46,8 +46,8 @@ jar 包：https://jcenter.bintray.com/com/tencent/matrix/matrix-apk-canary/0.4.1
                     "package":"java"
                 },
                 {
-                    "name":"com.huxiu",
-                    "package":"com.huxiu"
+                    "name":"com.test",
+                    "package":"com.test"
                 }
             ]
         }
